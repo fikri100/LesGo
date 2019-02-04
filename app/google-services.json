@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "55128601565",
+    "firebase_url": "https://les1-3cafb.firebaseio.com",
+    "project_id": "les1-3cafb",
+    "storage_bucket": "les1-3cafb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55128601565:android:7aefee966c7cc4cd",
+        "android_client_info": {
+          "package_name": "com.example.asus.lesgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55128601565-r2u4r38pur4qg14plncr5escia9o87r9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.lesgo",
+            "certificate_hash": "e824a4e7767557d6dca741e7801cef3cffccd2fa"
+          }
+        },
+        {
+          "client_id": "55128601565-at011i6del184fosdrm3comlis9nm601.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQxpQ-pvt_FbhYuT-OFaciAgfs3S3TTvI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55128601565-at011i6del184fosdrm3comlis9nm601.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

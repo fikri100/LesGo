@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asus.lesgo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splash"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".LoginMurid"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".LoginGuru"
+            android:parentActivityName=".Home" />
+        <activity
+            android:name=".RegisterMurid"
+            android:parentActivityName=".LoginMurid" />
+        <activity
+            android:name=".RegisterGuru"
+            android:parentActivityName=".LoginGuru" />
+        <activity
+            android:name=".MainActivityMurid"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivityGuru"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Transaksi"
+            android:parentActivityName=".MainActivityMurid" />
+        <activity
+            android:name=".HistoryMurid"
+            android:parentActivityName=".MainActivityMurid" />
+        <activity
+            android:name=".HistoryGuru"
+            android:parentActivityName=".MainActivityGuru" />
+        <activity
+            android:name=".DataDiriMurid"
+            android:parentActivityName=".MainActivityMurid" />
+        <activity
+            android:name=".DataDiriGuru"
+            android:parentActivityName=".MainActivityGuru" />
+        <activity android:name=".KonfirmasiTransaksi" />
+        <activity
+            android:name=".Komentar"
+            android:parentActivityName=".ListKomentar" />
+        <activity
+            android:name=".ListKomentar"
+            android:parentActivityName=".MainActivityGuru" />
+        <activity
+            android:name=".CatatanGuru"
+            android:parentActivityName=".MainActivityGuru" />
+        <activity
+            android:name=".TambahCatatan"
+            android:parentActivityName=".CatatanGuru" />
+    </application>
+
+</manifest>

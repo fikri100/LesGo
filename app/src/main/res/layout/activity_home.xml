@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".Home">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/logo"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="150dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/round"
+            android:gravity="center"
+            android:text="Login Guru"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:id="@+id/loginGuru"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/round"
+            android:gravity="center"
+            android:text="Login Murid"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:id="@+id/loginMurid"/>
+    </LinearLayout>
+
+</RelativeLayout>
